@@ -1,0 +1,122 @@
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.exe
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.deps.json
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.runtimeconfig.json
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.runtimeconfig.dev.json
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.pdb
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.csprojAssemblyReference.cache
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.AssemblyInfoInputs.cache
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.AssemblyInfo.cs
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.RazorTargetAssemblyInfo.cache
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\obj\Debug\netcoreapp3.1\staticwebassets\EuropeLeagues.API.StaticWebAssets.Manifest.cache
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\obj\Debug\netcoreapp3.1\staticwebassets\EuropeLeagues.API.StaticWebAssets.xml
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.pdb
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.genruntimeconfig.cache
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.csproj.CopyComplete
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.exe
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.deps.json
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.runtimeconfig.json
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.runtimeconfig.dev.json
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.pdb
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.csprojAssemblyReference.cache
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.AssemblyInfoInputs.cache
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.AssemblyInfo.cs
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.csproj.CoreCompileInputs.cache
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.RazorTargetAssemblyInfo.cache
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.csproj.CopyComplete
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\staticwebassets\EuropeLeagues.API.StaticWebAssets.Manifest.cache
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\staticwebassets\EuropeLeagues.API.StaticWebAssets.xml
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.pdb
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.genruntimeconfig.cache
