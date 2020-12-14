@@ -111,8 +111,6 @@ C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Pr
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.csprojAssemblyReference.cache
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.AssemblyInfoInputs.cache
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.AssemblyInfo.cs
-C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.csproj.CoreCompileInputs.cache
-C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.RazorTargetAssemblyInfo.cache
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.csproj.CopyComplete
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\staticwebassets\EuropeLeagues.API.StaticWebAssets.Manifest.cache
@@ -120,3 +118,7 @@ C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Pr
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.dll
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.pdb
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.genruntimeconfig.cache
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.csproj.CoreCompileInputs.cache
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.MvcApplicationPartsAssemblyInfo.cache

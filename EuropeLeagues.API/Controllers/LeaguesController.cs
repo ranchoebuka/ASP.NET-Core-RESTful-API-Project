@@ -1,4 +1,6 @@
-﻿using EuropeLeagues.API.Entities;
+﻿using AutoMapper;
+using EuropeLeagues.API.DTOModels;
+using EuropeLeagues.API.Entities;
 using EuropeLeagues.API.Repository;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -13,17 +15,20 @@ namespace EuropeLeagues.API.Controllers
     public class LeaguesController : ControllerBase
     {
         private readonly IEuropeanLeaguesRepository _euroLeagueRepo;
-        public LeaguesController(IEuropeanLeaguesRepository repo)
+        private readonly IMapper _mapper;
+        public LeaguesController(IEuropeanLeaguesRepository repo, IMapper mapper)
         {
             _euroLeagueRepo = repo;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<League>> GetLeagues()
+        [HttpHead]
+        public ActionResult<IEnumerable<LeagueDto>> GetLeagues()
         {
             var leagues = _euroLeagueRepo.GetLeagues();
 
-            return Ok(leagues); // Ok can return any document type (Json,Xml, etc)
+            return Ok(_mapper.Map<IEnumerable<LeagueDto>>(leagues)); // Ok can return any document type (Json,Xml, etc)
         }
 
         [HttpGet("{leagueId}")]

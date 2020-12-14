@@ -71,7 +71,7 @@ namespace EuropeLeagues.API.DbContexts
                 {
                    Id = 1,
                    Name = "Manchester United",
-                   ManagerName = "Ole Solskjear",
+                   ManagerName = "Ole Gunnar Solskjaer",
                    StadiumName = "Old Trafford",
                    LeagueId = 1
                 },

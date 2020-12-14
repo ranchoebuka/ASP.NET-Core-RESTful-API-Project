@@ -12,5 +12,6 @@ namespace EuropeLeagues.API.Repository
         FootballClub GetClub(int LeagueId, int ClubId);
         IEnumerable<League> GetLeagues();
         League GetLeague(int LeagueId);
+        bool LeagueExist(int leagueId);
     }
 }
