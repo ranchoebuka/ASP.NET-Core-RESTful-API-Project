@@ -15,6 +15,8 @@ namespace EuropeLeagues.API.Entities
 
         public string Country { get; set; }
 
+        public string Group { get; set; }
+
         public ICollection<FootballClub> Clubs { get; set; } = new List<FootballClub>();
     }
 }

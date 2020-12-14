@@ -2,6 +2,7 @@
 using EuropeLeagues.API.DTOModels;
 using EuropeLeagues.API.Entities;
 using EuropeLeagues.API.Repository;
+using EuropeLeagues.API.SearchUtilities;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -24,9 +25,9 @@ namespace EuropeLeagues.API.Controllers
 
         [HttpGet]
         [HttpHead]
-        public ActionResult<IEnumerable<LeagueDto>> GetLeagues()
+        public ActionResult<IEnumerable<LeagueDto>> GetLeagues([FromQuery] LeagueSearchCriteria searchcriteria)
         {
-            var leagues = _euroLeagueRepo.GetLeagues();
+            var leagues = _euroLeagueRepo.GetLeagues(searchcriteria);
 
             return Ok(_mapper.Map<IEnumerable<LeagueDto>>(leagues)); // Ok can return any document type (Json,Xml, etc)
         }

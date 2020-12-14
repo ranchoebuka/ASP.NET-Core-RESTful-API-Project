@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using EuropeLeagues.API.DTOModels;
 using EuropeLeagues.API.Repository;
+using EuropeLeagues.API.SearchUtilities;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -23,14 +24,27 @@ namespace EuropeLeagues.API.Controllers
 
 
         //Get Collection of Football Clubs
+        //[HttpGet]
+        //public ActionResult<IEnumerable<FootballClubDto>> GetClubsForLeague(int leagueId)
+        //{
+        //    if (!_footballRepo.LeagueExist(leagueId))
+        //    {
+        //        return NotFound();
+        //    }
+        //    var clubs = _footballRepo.GetClubs(leagueId,null);
+
+        //    return Ok(_mapper.Map<IEnumerable<FootballClubDto>>(clubs));
+        //}
+
         [HttpGet]
-        public ActionResult<IEnumerable<FootballClubDto>> GetClubsForLeague(int leagueId)
+        public ActionResult<IEnumerable<FootballClubDto>> GetClubsForLeague(int leagueId, 
+            [FromQuery] FootballClubSearchCriteria searchcriteria)
         {
             if (!_footballRepo.LeagueExist(leagueId))
             {
                 return NotFound();
             }
-            var clubs = _footballRepo.GetClubs(leagueId);
+            var clubs = _footballRepo.GetClubs(leagueId, searchcriteria);
 
             return Ok(_mapper.Map<IEnumerable<FootballClubDto>>(clubs));
         }

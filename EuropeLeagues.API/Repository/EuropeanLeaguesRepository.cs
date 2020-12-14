@@ -1,5 +1,6 @@
 ﻿using EuropeLeagues.API.DbContexts;
 using EuropeLeagues.API.Entities;
+using EuropeLeagues.API.SearchUtilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,13 +36,34 @@ namespace EuropeLeagues.API.Repository
             return club;
         }
 
-        public IEnumerable<FootballClub> GetClubs(int LeagueId)
+        public IEnumerable<FootballClub> GetClubs(int LeagueId, FootballClubSearchCriteria searchcriteria)
+        {
+            IEnumerable<FootballClub> clubs = null;
+            if (LeagueId == 0)
+            {
+                throw new WrongIDException("Id Cannot be Zero");
+            }
+            clubs = searchcriteria == null ? 
+                _context.Clubs.ToList<FootballClub>().OrderBy(c => c.Id).Where(x => x.LeagueId == LeagueId):
+                GetClubsWithEqualorGreaterThanCapacity(LeagueId, searchcriteria.capacity);
+
+            var league = _context.Leagues.ToList<League>().Find(x => x.Id == LeagueId);
+
+            foreach (var item in clubs)
+            {
+                item.League = league;
+            }
+
+            return clubs;
+        }
+
+        public IEnumerable<FootballClub> GetClubsWithEqualorGreaterThanCapacity(int LeagueId, double capacity)
         {
             if (LeagueId == 0)
             {
                 throw new WrongIDException("Id Cannot be Zero");
             }
-            var clubs =  _context.Clubs.ToList<FootballClub>().Where(x => x.LeagueId == LeagueId).OrderBy(c=>c.Id);
+            var clubs = _context.Clubs.ToList<FootballClub>().Where(x => x.LeagueId == LeagueId && x.stadiumCapacity >= capacity);
 
             var league = _context.Leagues.ToList<League>().Find(x => x.Id == LeagueId);
 
@@ -62,9 +84,22 @@ namespace EuropeLeagues.API.Repository
             return _context.Leagues.ToList<League>().FirstOrDefault(x => x.Id == LeagueId);
         }
 
-        public IEnumerable<League> GetLeagues()
+        public IEnumerable<League> GetLeagues(LeagueSearchCriteria searchcriteria)
         {
-            return _context.Leagues.ToList<League>();
+            if (searchcriteria == null)
+            {
+                return _context.Leagues.ToList<League>();
+            }
+            else
+            {
+                return GetLeagues(searchcriteria.leagueGroup.ToLower());
+            }
+        }
+
+        public IEnumerable<League> GetLeagues(string group)
+        {
+           
+            return _context.Leagues.ToList<League>().Where(x=>x.Group.ToLower() == group);
         }
 
         public bool LeagueExist(int leagueId)

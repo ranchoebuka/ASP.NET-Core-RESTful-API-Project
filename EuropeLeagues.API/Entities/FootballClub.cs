@@ -14,6 +14,7 @@ namespace EuropeLeagues.API.Entities
         public string ManagerName { get; set; }
 
         public string StadiumName { get; set; }
+        public double  stadiumCapacity { get; set; }
 
         public League League { get; set; }
 

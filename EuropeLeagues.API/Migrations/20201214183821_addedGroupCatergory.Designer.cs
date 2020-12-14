@@ -4,14 +4,16 @@ using EuropeLeagues.API.DbContexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EuropeLeagues.API.Migrations
 {
     [DbContext(typeof(EuropeLeagueContext))]
-    partial class EuropeLeagueContextModelSnapshot : ModelSnapshot
+    [Migration("20201214183821_addedGroupCatergory")]
+    partial class addedGroupCatergory
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
