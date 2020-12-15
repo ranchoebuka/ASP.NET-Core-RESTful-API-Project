@@ -32,15 +32,29 @@ namespace EuropeLeagues.API.Controllers
             return Ok(_mapper.Map<IEnumerable<LeagueDto>>(leagues)); // Ok can return any document type (Json,Xml, etc)
         }
 
-        [HttpGet("{leagueId}")]
-        public ActionResult GetLeague(int leagueId)
+        [HttpGet("{leagueId}", Name = "GetLeagueEntity")]
+        public ActionResult<LeagueDto> GetLeague(int leagueId)
         {
             var league = _euroLeagueRepo.GetLeague(leagueId);
             if (league == null)
             {
                 return NotFound();
             }
-            return Ok(league);
+            return Ok(_mapper.Map<LeagueDto>(league));
+        }
+
+        [HttpPost]
+        public ActionResult<LeagueDto> CreateLeague(LeagueCreationDto league)
+        {
+            var leagueEntity = _mapper.Map<League>(league);
+            _euroLeagueRepo.AddLeague(leagueEntity);
+            _euroLeagueRepo.Save();
+
+            var returnedleague = _mapper.Map<LeagueDto>(leagueEntity);
+            return CreatedAtRoute("GetLeagueEntity",
+                new { leagueId = returnedleague.Id },
+                returnedleague);
+
         }
     }
 }

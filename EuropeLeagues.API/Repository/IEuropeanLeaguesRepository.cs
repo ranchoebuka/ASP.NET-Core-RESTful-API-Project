@@ -15,5 +15,9 @@ namespace EuropeLeagues.API.Repository
         IEnumerable<FootballClub> GetClubsWithEqualorGreaterThanCapacity(int LeagueId, double capacity);
         League GetLeague(int LeagueId);
         bool LeagueExist(int leagueId);
+        bool Save();
+        void AddLeague(League league);
+
+        void AddFootballClub(int leagueId, FootballClub footballClub);
     }
 }

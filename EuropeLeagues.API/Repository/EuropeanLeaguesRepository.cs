@@ -86,7 +86,7 @@ namespace EuropeLeagues.API.Repository
 
         public IEnumerable<League> GetLeagues(LeagueSearchCriteria searchcriteria)
         {
-            if (searchcriteria == null)
+            if (searchcriteria.leagueGroup == null)
             {
                 return _context.Leagues.ToList<League>();
             }
@@ -110,6 +110,42 @@ namespace EuropeLeagues.API.Repository
             }
 
             return _context.Leagues.Any(x => x.Id == leagueId);
+        }
+
+        public void AddLeague(League league)
+        {
+            if (league == null)
+            {
+                throw new ArgumentNullException(nameof(league));
+            }
+            foreach (var item in league.Clubs)
+            {
+                _context.Clubs.Add(item);
+            }
+            _context.Leagues.Add(league);
+        }
+
+        public void AddFootballClub(int leagueId, FootballClub footballClub)
+        {
+            if (footballClub == null)
+            {
+                throw new ArgumentNullException(nameof(footballClub));
+            }
+            if (leagueId == 0)
+            {
+                throw new WrongIDException("Id Cannot be Zero");
+            }
+
+            var league = _context.Leagues.Where(x=>x.Id == leagueId).FirstOrDefault();
+            footballClub.League = league;
+
+            _context.Clubs.Add(footballClub);
+
+        }
+
+        public bool Save()
+        {
+            return (_context.SaveChanges() >= 0);
         }
     }
 }

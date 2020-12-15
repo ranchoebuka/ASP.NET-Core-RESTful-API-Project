@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using EuropeLeagues.API.DTOModels;
+using EuropeLeagues.API.Entities;
 using EuropeLeagues.API.Repository;
 using EuropeLeagues.API.SearchUtilities;
 using Microsoft.AspNetCore.Mvc;
@@ -22,20 +23,7 @@ namespace EuropeLeagues.API.Controllers
             _mapper = mapper;
         }
 
-
         //Get Collection of Football Clubs
-        //[HttpGet]
-        //public ActionResult<IEnumerable<FootballClubDto>> GetClubsForLeague(int leagueId)
-        //{
-        //    if (!_footballRepo.LeagueExist(leagueId))
-        //    {
-        //        return NotFound();
-        //    }
-        //    var clubs = _footballRepo.GetClubs(leagueId,null);
-
-        //    return Ok(_mapper.Map<IEnumerable<FootballClubDto>>(clubs));
-        //}
-
         [HttpGet]
         public ActionResult<IEnumerable<FootballClubDto>> GetClubsForLeague(int leagueId, 
             [FromQuery] FootballClubSearchCriteria searchcriteria)
@@ -49,8 +37,8 @@ namespace EuropeLeagues.API.Controllers
             return Ok(_mapper.Map<IEnumerable<FootballClubDto>>(clubs));
         }
 
-        //Get Collection of Football Clubs
-        [HttpGet("{FootballClubId}")]
+      
+        [HttpGet("{FootballClubId}", Name = "GetClubEntity")]
         public ActionResult<FootballClubDto> GetClubForLeague(int leagueId, int FootballClubId)
         {
             if (!_footballRepo.LeagueExist(leagueId))
@@ -63,6 +51,22 @@ namespace EuropeLeagues.API.Controllers
                 return NotFound();
             }
             return Ok(_mapper.Map<FootballClubDto>(club));
+        }
+
+        [HttpPost]
+        public ActionResult<FootballClubDto> CreateClubForLeague(int leagueId, FootballClubCreationDto club)
+        {
+            if (!_footballRepo.LeagueExist(leagueId))
+            {
+                return NotFound();
+            }
+            var footballclub = _mapper.Map<FootballClub>(club);
+            _footballRepo.AddFootballClub(leagueId, footballclub);
+            _footballRepo.Save();
+
+            var clubDto = _mapper.Map<FootballClubDto>(footballclub);
+            return CreatedAtRoute("GetClubEntity",
+                new {leagueId = clubDto.LeagueId, FootballClubId = clubDto.Id }, clubDto);
         }
     }
 }

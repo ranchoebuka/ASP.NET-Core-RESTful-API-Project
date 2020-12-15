@@ -13,7 +13,9 @@ namespace EuropeLeagues.API.Profiles
     {
         public LeagueProfile()
         {
-            CreateMap<League, LeagueDto>().ForMember(dest => dest.Age, opt => opt.MapFrom(src => src.DateofCreation.GetCurrentAge())); ;
+            CreateMap<League, LeagueDto>().ForMember(dest => dest.Age, opt => opt.MapFrom(src => src.DateofCreation.GetCurrentAge()));
+
+            CreateMap<LeagueCreationDto, League>();
         }
     }
 }

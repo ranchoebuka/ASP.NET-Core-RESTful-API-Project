@@ -13,7 +13,10 @@ namespace EuropeLeagues.API.Profiles
         public FootballClubProfile()
         {
             CreateMap<FootballClub, FootballClubDto>()
-                .ForMember(x => x.LeagueName, c => c.MapFrom(d => d.League.Name));
+                .ForMember(x => x.LeagueName, c => c.MapFrom(d => d.League.Name))
+                .ForMember(x => x.LeagueId, c => c.MapFrom(d => d.League.Id));
+
+            CreateMap<FootballClubCreationDto, FootballClub>();
         }
     }
 }
