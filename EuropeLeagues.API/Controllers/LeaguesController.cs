@@ -56,5 +56,12 @@ namespace EuropeLeagues.API.Controllers
                 returnedleague);
 
         }
+
+        [HttpOptions]
+        public IActionResult GetAuthorsOptions()
+        {
+            Response.Headers.Add("Allow", "GET,OPTIONS,POST");
+            return Ok();
+        }
     }
 }

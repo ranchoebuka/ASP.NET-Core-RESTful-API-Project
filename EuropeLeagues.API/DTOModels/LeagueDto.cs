@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace EuropeLeagues.API.DTOModels
+﻿namespace EuropeLeagues.API.DTOModels
 {
+
     public class LeagueDto
     {
         public int Id { get; set; }

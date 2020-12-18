@@ -96,6 +96,17 @@ namespace EuropeLeagues.API.Repository
             }
         }
 
+        public IEnumerable<League> GetLeagues(IEnumerable<int> ids)
+        {
+            if (ids == null)
+            {
+                throw new ArgumentNullException(nameof(ids));
+            }
+
+            return _context.Leagues.Where(a => ids.Contains(a.Id)).OrderBy(b=>b.Name)
+                .ToList();
+        }
+
         public IEnumerable<League> GetLeagues(string group)
         {
            

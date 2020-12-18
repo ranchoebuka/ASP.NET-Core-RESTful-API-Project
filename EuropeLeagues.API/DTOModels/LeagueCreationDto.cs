@@ -1,4 +1,5 @@
 ﻿using EuropeLeagues.API.Entities;
+using EuropeLeagues.API.Validation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace EuropeLeagues.API.DTOModels
 {
+    [LeagueDtoValidation(ErrorMessage = "Name and Country must be supplied")]
     public class LeagueCreationDto
     {
         public string Name { get; set; }

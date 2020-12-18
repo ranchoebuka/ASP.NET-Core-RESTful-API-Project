@@ -12,6 +12,8 @@ namespace EuropeLeagues.API.Repository
         IEnumerable<FootballClub> GetClubs(int LeagueId, FootballClubSearchCriteria searchcriteria);
         FootballClub GetClub(int LeagueId, int ClubId);
         IEnumerable<League> GetLeagues(LeagueSearchCriteria searchcriteria);
+
+        IEnumerable<League> GetLeagues(IEnumerable<int> ids);
         IEnumerable<FootballClub> GetClubsWithEqualorGreaterThanCapacity(int LeagueId, double capacity);
         League GetLeague(int LeagueId);
         bool LeagueExist(int leagueId);

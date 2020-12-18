@@ -2,6 +2,7 @@
 using EuropeLeagues.API.DTOModels;
 using EuropeLeagues.API.Entities;
 using EuropeLeagues.API.Repository;
+using EuropeLeagues.API.Utilities;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,27 @@ namespace EuropeLeagues.API.Controllers
             _mapper = mapper;
         }
 
+        [HttpGet("({ids})", Name ="GetCollection")]
+        public IActionResult GetLeagueCollection([FromRoute] [ModelBinder(BinderType =typeof(ArrayModelBinder))]
+        IEnumerable<int> ids)
+        {
+            if (ids == null)
+            {
+                return BadRequest();
+            }
+            var leagues = _euroLeagueRepo.GetLeagues(ids);
+
+            if (ids.Count() != leagues.Count())
+            {
+                return NotFound();
+            }
+
+            var authorsToReturn = _mapper.Map<IEnumerable<LeagueDto>>(leagues);
+
+            return Ok(authorsToReturn);
+        }
+
+
         [HttpPost]
         public ActionResult<IEnumerable<LeagueDto>> CreateLeagues(IEnumerable<LeagueCreationDto> leagues)
         {
@@ -35,7 +57,10 @@ namespace EuropeLeagues.API.Controllers
 
             var allLeaguesDto = _mapper.Map<IEnumerable<LeagueDto>>(allLeagues);
 
-            return Ok(allLeaguesDto);
+            var idsAsString = string.Join(",", allLeaguesDto.Select(a => a.Id));
+            return CreatedAtRoute("GetCollection",
+             new { ids = idsAsString },
+             allLeaguesDto);
         }
     }
 }
