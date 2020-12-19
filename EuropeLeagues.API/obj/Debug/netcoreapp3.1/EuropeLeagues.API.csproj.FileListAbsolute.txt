@@ -120,5 +120,8 @@ C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Pr
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.genruntimeconfig.cache
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.csproj.CoreCompileInputs.cache
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.MvcApplicationPartsAssemblyInfo.cache

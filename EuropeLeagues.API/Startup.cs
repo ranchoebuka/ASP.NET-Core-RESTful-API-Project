@@ -14,6 +14,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Serialization;
 
 namespace EuropeLeagues.API
 {
@@ -33,10 +34,14 @@ namespace EuropeLeagues.API
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             // Adds services (model binding, data annotations, formatters, controllers etc) needed for building API
-            services.AddControllers(setupaction=>
+            services.AddControllers(setupaction =>
             {
                 setupaction.ReturnHttpNotAcceptable = true;
 
+            }).AddNewtonsoftJson(setupAction =>
+            {
+                setupAction.SerializerSettings.ContractResolver =
+                   new CamelCasePropertyNamesContractResolver();
             }).AddXmlDataContractSerializerFormatters();
             services.AddScoped<IEuropeanLeaguesRepository, EuropeanLeaguesRepository>();
 

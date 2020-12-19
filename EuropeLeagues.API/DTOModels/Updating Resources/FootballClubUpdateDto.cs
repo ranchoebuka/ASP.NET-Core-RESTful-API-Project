@@ -3,22 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EuropeLeagues.API.DTOModels
+namespace EuropeLeagues.API.DTOModels.Updating_Resources
 {
-    public class FootballClubDto
+    public class FootballClubUpdateDto
     {
-        public int Id { get; set; }
-
-        public string Name { get; set; }
-
         public string ManagerName { get; set; }
-
         public string StadiumName { get; set; }
-
-        public string LeagueName { get; set; }
-
         public double stadiumCapacity { get; set; }
-
-        public int LeagueId { get; set; }
+        public string Honours { get; set; }
     }
 }
