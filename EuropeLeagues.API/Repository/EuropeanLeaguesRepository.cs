@@ -158,5 +158,20 @@ namespace EuropeLeagues.API.Repository
         {
             return (_context.SaveChanges() >= 0);
         }
+
+        public void DeleteFootballClub(FootballClub club)
+        {
+            _context.Clubs.Remove(club);
+        }
+
+        public void DeleteLeague(League league)
+        {
+            if (league == null)
+            {
+                throw new ArgumentNullException(nameof(league));
+            }
+            
+            _context.Leagues.Remove(league);
+        }
     }
 }

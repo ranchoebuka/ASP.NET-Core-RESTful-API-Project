@@ -75,12 +75,12 @@ namespace EuropeLeagues.API.Controllers
         }
 
         [HttpPatch("{clubid}")]
-        public ActionResult partialUpdateFootballClub(int leagueid, int clubid,
+        public ActionResult partialUpdateFootballClub(int leagueId, int clubid,
             JsonPatchDocument<FootballClubCreationDto> clubPatchdocument)
         {
-            if (!_footballRepo.LeagueExist(leagueid)) return NotFound();
+            if (!_footballRepo.LeagueExist(leagueId)) return NotFound();
 
-            var clubtoupdate = _footballRepo.GetClub(leagueid, clubid);
+            var clubtoupdate = _footballRepo.GetClub(leagueId, clubid);
             if (clubtoupdate == null)
             {
                 //Upserting with PATCH
@@ -95,7 +95,7 @@ namespace EuropeLeagues.API.Controllers
                 var clubToAdd = _mapper.Map<FootballClub>(clubDto);
                 clubToAdd.Id = clubid;
 
-                _footballRepo.AddFootballClub(leagueid, clubToAdd);
+                _footballRepo.AddFootballClub(leagueId, clubToAdd);
                 _footballRepo.Save();
 
                 var clubToReturn = _mapper.Map<FootballClubDto>(clubToAdd);
@@ -122,6 +122,27 @@ namespace EuropeLeagues.API.Controllers
             var options = HttpContext.RequestServices
                 .GetRequiredService<IOptions<ApiBehaviorOptions>>();
             return (ActionResult)options.Value.InvalidModelStateResponseFactory(ControllerContext);
+        }
+
+        [HttpDelete("{clubId}")]
+        public ActionResult DeleteClubinLeague(int leagueId, int clubId)
+        {
+            if (!_footballRepo.LeagueExist(clubId))
+            {
+                return NotFound();
+            }
+
+            var clubfromleague = _footballRepo.GetClub(leagueId, clubId);
+
+            if (clubfromleague == null)
+            {
+                return NotFound();
+            }
+
+            _footballRepo.DeleteFootballClub(clubfromleague);
+            _footballRepo.Save();
+
+            return NoContent();
         }
     }
 }

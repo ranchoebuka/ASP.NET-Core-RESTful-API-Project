@@ -63,5 +63,23 @@ namespace EuropeLeagues.API.Controllers
             Response.Headers.Add("Allow", "GET,OPTIONS,POST");
             return Ok();
         }
+
+        [HttpDelete("{leagueId}")]
+        public ActionResult DeleteLeague(int leagueId)
+        {
+            var league = _euroLeagueRepo.GetLeague(leagueId);
+
+            if (league == null)
+            {
+                return NotFound();
+            }
+
+            // cascade delete is here. so courses attached to this author will be deleted as well
+            _euroLeagueRepo.DeleteLeague(league);
+
+            _euroLeagueRepo.Save();
+
+            return NoContent();
+        }
     }
 }

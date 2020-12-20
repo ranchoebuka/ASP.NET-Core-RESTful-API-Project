@@ -20,6 +20,10 @@ namespace EuropeLeagues.API.Repository
         bool Save();
         void AddLeague(League league);
 
+        void DeleteFootballClub(FootballClub club);
+
+        void DeleteLeague(League league);
+
         void AddFootballClub(int leagueId, FootballClub footballClub);
     }
 }
