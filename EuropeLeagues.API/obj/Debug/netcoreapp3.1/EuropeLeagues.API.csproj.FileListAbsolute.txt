@@ -59,7 +59,6 @@ C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\n
 C:\Users\Ezenworo Ebuka\source\repos\EuropeLeagues\EuropeLeagues.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.exe
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.deps.json
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\EuropeLeagues.API.runtimeconfig.json
@@ -125,3 +124,4 @@ C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Pr
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.csproj.CoreCompileInputs.cache
 C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\EuropeLeagues.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ezenworo Ebuka\Desktop\Projects\Football API\ASP.NET-Core-RESTul-API-Project\EuropeLeagues.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\EuropeLeagues.API.styles.css
