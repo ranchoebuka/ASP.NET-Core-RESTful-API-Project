@@ -1,6 +1,7 @@
 ﻿using EuropeLeagues.API.DbContexts;
 using EuropeLeagues.API.Entities;
 using EuropeLeagues.API.SearchUtilities;
+using EuropeLeagues.API.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -84,15 +85,22 @@ namespace EuropeLeagues.API.Repository
             return _context.Leagues.ToList<League>().FirstOrDefault(x => x.Id == LeagueId);
         }
 
-        public IEnumerable<League> GetLeagues(LeagueSearchCriteria searchcriteria)
+        public PageCollection<League> GetLeagues(LeagueSearchCriteria searchcriteria)
         {
+            var collection = _context.Leagues as IQueryable<League>;
+
             if (searchcriteria.leagueGroup == null)
             {
-                return _context.Leagues.ToList<League>();
+                return PageCollection<League>.Create(collection,
+                searchcriteria.PageNumber,
+                searchcriteria.PageSize);
             }
             else
             {
-                return GetLeagues(searchcriteria.leagueGroup.ToLower());
+                collection = collection.Where(x => x.Group.ToLower() == searchcriteria.leagueGroup.Trim().ToLower());
+                return PageCollection<League>.Create(collection,
+                searchcriteria.PageNumber,
+                searchcriteria.PageSize);
             }
         }
 
@@ -107,11 +115,7 @@ namespace EuropeLeagues.API.Repository
                 .ToList();
         }
 
-        public IEnumerable<League> GetLeagues(string group)
-        {
-           
-            return _context.Leagues.ToList<League>().Where(x=>x.Group.ToLower() == group);
-        }
+       
 
         public bool LeagueExist(int leagueId)
         {

@@ -20,4 +20,11 @@ namespace EuropeLeagues.API.Utilities
             return age;
         }
     }
+
+    public enum ResourceUriType
+    {
+        PreviousPage,
+        NextPage,
+        Current
+    }
 }

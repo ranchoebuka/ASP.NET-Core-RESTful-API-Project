@@ -1,5 +1,6 @@
 ﻿using EuropeLeagues.API.Entities;
 using EuropeLeagues.API.SearchUtilities;
+using EuropeLeagues.API.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace EuropeLeagues.API.Repository
     {
         IEnumerable<FootballClub> GetClubs(int LeagueId, FootballClubSearchCriteria searchcriteria);
         FootballClub GetClub(int LeagueId, int ClubId);
-        IEnumerable<League> GetLeagues(LeagueSearchCriteria searchcriteria);
+        PageCollection<League> GetLeagues(LeagueSearchCriteria searchcriteria);
 
         IEnumerable<League> GetLeagues(IEnumerable<int> ids);
         IEnumerable<FootballClub> GetClubsWithEqualorGreaterThanCapacity(int LeagueId, double capacity);
