@@ -3,6 +3,7 @@ using EuropeLeagues.API.DTOModels;
 using EuropeLeagues.API.Entities;
 using EuropeLeagues.API.Repository;
 using EuropeLeagues.API.Utilities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ using System.Threading.Tasks;
 namespace EuropeLeagues.API.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/leaguecollections")]
     public class LeagueCollectionsController : ControllerBase
     {

@@ -15,6 +15,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using EuropeLeagues.API.Authentication;
+using System.Text;
 
 namespace EuropeLeagues.API
 {
@@ -30,6 +34,27 @@ namespace EuropeLeagues.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(optt =>
+            {
+                optt.AddPolicy("MyDefaultPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().AllowCredentials());
+            });
+
+            services.AddScoped<IJwtAuthHandler, JwtAuthHandler>();
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(Opt =>
+            {
+                Opt.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = Configuration["JwtKey:Issuer"],
+                    ValidAudience = Configuration["JwtKey:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JwtKey:Key"]))
+                };
+            });
+            services.AddMvc();
             // Register AutoMapper
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
@@ -74,7 +99,7 @@ namespace EuropeLeagues.API
 
             }
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

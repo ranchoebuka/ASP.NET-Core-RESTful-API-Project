@@ -3,6 +3,7 @@ using EuropeLeagues.API.DTOModels;
 using EuropeLeagues.API.Entities;
 using EuropeLeagues.API.Repository;
 using EuropeLeagues.API.SearchUtilities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
@@ -17,7 +18,9 @@ using System.Threading.Tasks;
 namespace EuropeLeagues.API.Controllers
 {
     [ApiController]
-    [Route("api/leagues/{leagueId}/FootballClubs")]
+    [Authorize]
+    //[Route("api/leagues/{leagueId}/FootballClubs")]
+    [Route("api/leagues/{leagueId}/{Controller}")]
     public class FootballClubsController:ControllerBase
     {
         private readonly IEuropeanLeaguesRepository _footballRepo;

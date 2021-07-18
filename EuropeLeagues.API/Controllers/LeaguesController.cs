@@ -4,6 +4,7 @@ using EuropeLeagues.API.Entities;
 using EuropeLeagues.API.Repository;
 using EuropeLeagues.API.SearchUtilities;
 using EuropeLeagues.API.Utilities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ using System.Threading.Tasks;
 namespace EuropeLeagues.API.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/leagues")]
     public class LeaguesController : ControllerBase
     {

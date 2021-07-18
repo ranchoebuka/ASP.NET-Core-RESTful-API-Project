@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ezenworo Ebuka\\Desktop\\Projects\\Football API\\ASP.NET-Core-RESTul-API-Project\\EuropeLeagues.API\\EuropeLeagues.API.csproj": {}
+    "C:\\Users\\Ezenworo Ebuka\\Desktop\\Projects\\My GitHub Projects\\Football API\\ASP.NET-Core-RESTul-API-Project\\EuropeLeagues.API\\EuropeLeagues.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ezenworo Ebuka\\Desktop\\Projects\\Football API\\ASP.NET-Core-RESTul-API-Project\\EuropeLeagues.API\\EuropeLeagues.API.csproj": {
+    "C:\\Users\\Ezenworo Ebuka\\Desktop\\Projects\\My GitHub Projects\\Football API\\ASP.NET-Core-RESTul-API-Project\\EuropeLeagues.API\\EuropeLeagues.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ezenworo Ebuka\\Desktop\\Projects\\Football API\\ASP.NET-Core-RESTul-API-Project\\EuropeLeagues.API\\EuropeLeagues.API.csproj",
+        "projectUniqueName": "C:\\Users\\Ezenworo Ebuka\\Desktop\\Projects\\My GitHub Projects\\Football API\\ASP.NET-Core-RESTul-API-Project\\EuropeLeagues.API\\EuropeLeagues.API.csproj",
         "projectName": "EuropeLeagues.API",
-        "projectPath": "C:\\Users\\Ezenworo Ebuka\\Desktop\\Projects\\Football API\\ASP.NET-Core-RESTul-API-Project\\EuropeLeagues.API\\EuropeLeagues.API.csproj",
+        "projectPath": "C:\\Users\\Ezenworo Ebuka\\Desktop\\Projects\\My GitHub Projects\\Football API\\ASP.NET-Core-RESTul-API-Project\\EuropeLeagues.API\\EuropeLeagues.API.csproj",
         "packagesPath": "C:\\Users\\Ezenworo Ebuka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ezenworo Ebuka\\Desktop\\Projects\\Football API\\ASP.NET-Core-RESTul-API-Project\\EuropeLeagues.API\\obj\\",
+        "outputPath": "C:\\Users\\Ezenworo Ebuka\\Desktop\\Projects\\My GitHub Projects\\Football API\\ASP.NET-Core-RESTul-API-Project\\EuropeLeagues.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Ezenworo Ebuka\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -49,6 +47,10 @@
               "target": "Package",
               "version": "[8.1.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
               "version": "[5.0.1, )"
@@ -70,6 +72,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.1, )"
             }
           },
           "imports": [
